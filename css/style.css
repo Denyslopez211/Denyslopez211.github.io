@@ -2199,23 +2199,10 @@ ul.packages li i.fa-times{
     background: url(../images/slider-image3.jpg);
 }
 
-
- @media only screen and (max-width: 550px) {
-  .tp-bgimgbox_otl {
-    background-attachment: fixed !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-      background-repeat: no-repeat  !important;
-      background-image: url(/images/mobile/home/slider/box_otl.jpg) !important;
-      background-size: cover  !important;
-      background-position: center center  !important; 
-      width: 100% !important;
-      height: 100% !important;    ;
-      opacity: 1 !important;
-      visibility: inherit !important;
-      z-index: 20 !important; 
-  } 
-} 
- @media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) 
+                    and (device-width: 414px) 
+                    and (device-height: 896px) 
+                    and (-webkit-device-pixel-ratio: 3) {
   .tp-bgimgheader {
     background-attachment: fixed !important;
     background-color: rgba(0, 0, 0, 0) !important;
@@ -2228,7 +2215,20 @@ ul.packages li i.fa-times{
       opacity: 1 !important;
       visibility: inherit !important;
       z-index: 20 !important; 
-  } 
+  }
+   .tp-bgimgbox_otl {
+    background-attachment: fixed !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+      background-repeat: no-repeat  !important;
+      background-image: url(/images/mobile/home/slider/box_otl.jpg) !important;
+      background-size: cover  !important;
+      background-position: center center  !important; 
+      width: 100% !important;
+      height: 100% !important;    ;
+      opacity: 1 !important;
+      visibility: inherit !important;
+      z-index: 20 !important; 
+  }  
 } 
 /* ===================================
     Side Menu
