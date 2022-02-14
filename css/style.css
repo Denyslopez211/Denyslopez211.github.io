@@ -2200,8 +2200,8 @@ ul.packages li i.fa-times{
 }
 
 @media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
+    and (width: 414px) 
+    and (height: 896px) 
     and (-webkit-device-pixel-ratio: 3) { 
      .tp-bgimgheader {
     background-attachment: fixed !important;
@@ -2231,7 +2231,7 @@ ul.packages li i.fa-times{
   } 
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (width: 375px) and (height: 812px) and (-webkit-device-pixel-ratio: 2) {
     .tp-bgimgheader {
     background-attachment: fixed !important;
     background-color: rgba(0, 0, 0, 0) !important;
