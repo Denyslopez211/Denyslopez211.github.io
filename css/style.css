@@ -1307,7 +1307,7 @@ header .center-logo a.logo img {max-width: 130px;}
     background: #030303;
     background: -moz-linear-gradient(left, #030303 2%, #515052 82%);
     background: -webkit-linear-gradient(left,eft, #030303 2%, #515052 82%);
-    background: linear-gradient(to right, eft, #030303 2%, #515052 82%);
+    background: linear-gradient(to right, left, #030303 2%, #515052 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030303', endColorstr='#515052',GradientType=1 );
     opacity: .5;
 }

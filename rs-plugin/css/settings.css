@@ -1623,7 +1623,7 @@ body.rtl .tp-kbimg {
   filter: grayscale(0.5) contrast(0.95) brightness(0.9);
 }
 .willow::before {
-  background-color: radial-gradient(40%, circle, #d4a9af 55%, #000 150%);
+  /* background-color: radial-gradient(40%, circle, #d4a9af 55%, #000 150%); comentado da error de css */
   mix-blend-mode: overlay;
 }
 .willow::after {
