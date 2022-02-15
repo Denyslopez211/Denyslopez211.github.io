@@ -135,7 +135,7 @@ a {text-decoration: none;}
     background: #0a0a0a;
     background: -moz-linear-gradient(left, #0a0a0a 2%, #626063 82%);
     background: -webkit-linear-gradient(left, #0a0a0a 2%, #626063 82%);
-    background: linear-gradient(to right,left, #0a0a0a 2%, #626063 82%);
+    background: linear-gradient(to right, #0a0a0a 2%, #626063 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#626063',GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1306,8 +1306,8 @@ header .center-logo a.logo img {max-width: 130px;}
     height: 100%;
     background: #030303;
     background: -moz-linear-gradient(left, #030303 2%, #515052 82%);
-    background: -webkit-linear-gradient(left,eft, #030303 2%, #515052 82%);
-    background: linear-gradient(to right, left, #030303 2%, #515052 82%);
+    background: -webkit-linear-gradient(left, #030303 2%, #515052 82%);
+    background: linear-gradient(to right, #030303 2%, #515052 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030303', endColorstr='#515052',GradientType=1 );
     opacity: .5;
 }
@@ -4349,8 +4349,7 @@ ul.count_down.white li p:nth-child(2) {
 }
 
 
-@media only screen and (max-device-width : 466px){
-
+@media only screen and (max-width : 466px){
     .rev_slider .caption, .rev_slider .tp-caption p{
         line-height: 1.2 !important;
         letter-spacing:.5px !important;
@@ -4359,5 +4358,4 @@ ul.count_down.white li p:nth-child(2) {
     .blog-detail-tag .btn{
         margin: 5px 0;
     }
-
 }
